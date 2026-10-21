@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="5ynL7bHttNvDi9vDUdAo">
+    <mxGraphModel dx="1601" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-106" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FactoryPassagem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ criarPassagem(): Passagem&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;(final) emitir(passageiro: String, valorTarifa: double): void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="360" x="520" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-107" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;PassagemAereaFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ criarPassagem(): Passagem&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-108" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;PassagemRodoviariaFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ criarPassagem(): Passagem&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="530" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-109" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;PassagemFerroviariaFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ criarPassagem(): Passagem&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="720" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-110" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Passagem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ calcularTaxa(valortarifa:double):double&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ getModal(): String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ getDocumentos(): String&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="290" x="1130" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-111" edge="1" parent="1" source="ZmwPDEJTwpT5uYLBflrv-107" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="ZmwPDEJTwpT5uYLBflrv-106" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="334" y="280" as="sourcePoint" />
+            <mxPoint x="494" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-112" edge="1" parent="1" source="ZmwPDEJTwpT5uYLBflrv-108" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.376;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZmwPDEJTwpT5uYLBflrv-106" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="600" y="340" as="sourcePoint" />
+            <mxPoint x="760" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-113" edge="1" parent="1" source="ZmwPDEJTwpT5uYLBflrv-109" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.836;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZmwPDEJTwpT5uYLBflrv-106" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="710" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-114" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="ZmwPDEJTwpT5uYLBflrv-110" value="Cria">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="900" y="160" as="sourcePoint" />
+            <mxPoint x="1060" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="PassagemFerroviaria" plantUmlId="cls_17" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=32;spacingLeft=25;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=4;" plantUmlBaseValue="PassagemFerroviaria" id="ZmwPDEJTwpT5uYLBflrv-115">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=32;spacingLeft=25;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=4;" vertex="1">
+            <mxGeometry height="44" width="170.97" x="1410" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_19" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="ZmwPDEJTwpT5uYLBflrv-117">
+          <mxCell parent="ZmwPDEJTwpT5uYLBflrv-115" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="170.97" y="36" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PassagemRodoviaria" plantUmlId="cls_14" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=32;spacingLeft=25;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=4;" plantUmlBaseValue="PassagemRodoviaria" id="ZmwPDEJTwpT5uYLBflrv-118">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=32;spacingLeft=25;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=4;" vertex="1">
+            <mxGeometry height="44" width="170.47" x="1209.53" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_16" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="ZmwPDEJTwpT5uYLBflrv-120">
+          <mxCell parent="ZmwPDEJTwpT5uYLBflrv-118" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="170.47" y="36" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PassagemAerea" plantUmlId="cls_11" plantUmlBaseStyle="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=32;spacingLeft=25;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=4;" plantUmlBaseValue="PassagemAerea" id="ZmwPDEJTwpT5uYLBflrv-121">
+          <mxCell parent="1" style="swimlane;collapsible=0;fontStyle=0;align=center;fontSize=14;fontColor=#000000;startSize=32;spacingLeft=25;fillColor=#F1F1F1;strokeColor=#181818;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;stackSpacing=0;marginTop=4;" vertex="1">
+            <mxGeometry height="44" width="137.79" x="1040" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="clssep_13" plantUmlBaseStyle="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" plantUmlBaseValue="" id="ZmwPDEJTwpT5uYLBflrv-123">
+          <mxCell parent="ZmwPDEJTwpT5uYLBflrv-121" style="line;strokeWidth=0.5;strokeColor=#181818;fillColor=none;align=left;verticalAlign=middle;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;connectable=0;" vertex="1">
+            <mxGeometry height="8" width="137.79" y="36" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-124" edge="1" parent="1" source="ZmwPDEJTwpT5uYLBflrv-121" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.586;exitY=-0.045;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZmwPDEJTwpT5uYLBflrv-110" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1130" y="450" as="sourcePoint" />
+            <mxPoint x="1290" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-125" edge="1" parent="1" source="ZmwPDEJTwpT5uYLBflrv-118" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.524;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.434;exitY=0.045;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZmwPDEJTwpT5uYLBflrv-110" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1130" y="450" as="sourcePoint" />
+            <mxPoint x="1290" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmwPDEJTwpT5uYLBflrv-126" edge="1" parent="1" source="ZmwPDEJTwpT5uYLBflrv-115" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.845;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="ZmwPDEJTwpT5uYLBflrv-110" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1420" y="414.5" as="sourcePoint" />
+            <mxPoint x="1580" y="414.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
